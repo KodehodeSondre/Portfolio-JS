@@ -29,6 +29,7 @@ document.querySelector('.tilt-box').addEventListener('mouseleave', (e) => {
             iframe.style.height = '100vh';
             iframe.style.position = 'fixed';
             iframe.style.top = '0';
+            iframe.style.border = 'none';
             iframe.style.left = '0';
             iframe.style.zIndex = '1000';
             fullscreenBtn.classList.add('hidden');
